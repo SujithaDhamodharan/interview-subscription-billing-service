@@ -4,15 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0844078-5e08-4b47-af24-6b3ff2f5d8b1" name="Changes" comment="feat: project structure initialization">
-      <change afterPath="$PROJECT_DIR$/APPROACH.md" afterDir="false" />
+    <list default="true" id="e0844078-5e08-4b47-af24-6b3ff2f5d8b1" name="Changes" comment="docs: initialize PR for review">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/billing/domain/ActiveState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/billing/domain/CanceledState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/billing/domain/PastDueState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/billing/domain/Subscription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/billing/domain/SubscriptionState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/billing/domain/TrialingState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/billing/infrastructure/HmacUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/billing/repository/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/billing/runner/RunCucumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/billing/steps/SubscriptionSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/subscription_billing.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subscription-billing-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/subscription-billing-service.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <favorite-branches>
@@ -35,18 +54,21 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "SujithaDhamodharan"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SujithaDhamodharan&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/SujithaDhamodharan/interview-subscription-billing-service.git",
-    "accountId": "1d19e57b-f0ba-474f-9301-05bf38cf8976"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SujithaDhamodharan/interview-subscription-billing-service.git&quot;,
+    &quot;accountId&quot;: &quot;1d19e57b-f0ba-474f-9301-05bf38cf8976&quot;
   }
-}]]></component>
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8,
   &quot;fromUser&quot;: false
@@ -59,8 +81,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "JUnit.RunCucumberTest.executor": "Run",
+    "Maven.subscription-billing-service [clean].executor": "Run",
+    "Maven.subscription-billing-service [test].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
@@ -78,6 +104,28 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="RunCucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="subscription-billing-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.billing.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.billing.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.example.billing.runner.RunCucumberTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RunCucumberTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -101,7 +149,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: project structure initialization" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: project structure initialization" />
+    <MESSAGE value="docs: initialize PR for review" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: initialize PR for review" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
