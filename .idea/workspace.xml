@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0844078-5e08-4b47-af24-6b3ff2f5d8b1" name="Changes" comment="docs: initialize PR for review">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/billing/domain/ActiveState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/billing/domain/CanceledState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/billing/domain/PastDueState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/billing/domain/Subscription.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/billing/domain/SubscriptionState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/billing/domain/TrialingState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/billing/infrastructure/HmacUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/billing/repository/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/billing/runner/RunCucumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/billing/steps/SubscriptionSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/subscription_billing.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="e0844078-5e08-4b47-af24-6b3ff2f5d8b1" name="Changes" comment="Subscription &amp; Billing Service — Software Developer in Test Assignment">
+      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscription-billing-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/subscription-billing-service.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +53,65 @@
     &quot;accountId&quot;: &quot;1d19e57b-f0ba-474f-9301-05bf38cf8976&quot;
   }
 }</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.1336041284211782" />
+      <entry key="MS500" value="2.805899277574064" />
+      <entry key="S2" value="4.7643919590409745" />
+      <entry key="S5" value="5.450771459488576" />
+      <entry key="S10" value="5.715094407393779" />
+      <entry key="S30" value="5.902627323756446" />
+      <entry key="S60" value="5.951005470606868" />
+      <entry key="M2" value="5.975425098357393" />
+      <entry key="M5" value="5.990151330483666" />
+      <entry key="M10" value="5.995072540741434" />
+      <entry key="M15" value="5.996714332355757" />
+      <entry key="M30" value="5.998356818657249" />
+      <entry key="H1" value="5.999178322426329" />
+      <entry key="H2" value="5.999589139484822" />
+      <entry key="H4" value="5.99979456430998" />
+      <entry key="D1" value="5.999965759963795" />
+      <entry key="W1" value="5.999995108547779" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.0929015159795354" />
+      <entry key="MS500" value="2.6631651314655778" />
+      <entry key="S2" value="4.636112436734645" />
+      <entry key="S5" value="5.382496447458598" />
+      <entry key="S10" value="5.677466297694607" />
+      <entry key="S30" value="5.889235686831962" />
+      <entry key="S60" value="5.944198622975425" />
+      <entry key="M2" value="5.971993535516998" />
+      <entry key="M5" value="5.988771902546217" />
+      <entry key="M10" value="5.994381688828749" />
+      <entry key="M15" value="5.996253511229722" />
+      <entry key="M30" value="5.998126281425072" />
+      <entry key="H1" value="5.9990630221284995" />
+      <entry key="H2" value="5.9995314814136655" />
+      <entry key="H4" value="5.999765733293614" />
+      <entry key="D1" value="5.999960954519273" />
+      <entry key="W1" value="5.9999944220489665" />
+    </decayedShown>
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -150,7 +196,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: project structure initialization" />
     <MESSAGE value="docs: initialize PR for review" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs: initialize PR for review" />
+    <MESSAGE value="Subscription &amp; Billing Service — Software Developer in Test Assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Subscription &amp; Billing Service — Software Developer in Test Assignment" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
