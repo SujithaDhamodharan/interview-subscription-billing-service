@@ -4,14 +4,116 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0844078-5e08-4b47-af24-6b3ff2f5d8b1" name="Changes" comment="" />
+    <list default="true" id="e0844078-5e08-4b47-af24-6b3ff2f5d8b1" name="Changes" comment="Subscription &amp; Billing Service — Software Developer in Test Assignment">
+      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="feature/subscription-billing-automation" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SujithaDhamodharan&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SujithaDhamodharan/interview-subscription-billing-service.git&quot;,
+    &quot;accountId&quot;: &quot;1d19e57b-f0ba-474f-9301-05bf38cf8976&quot;
+  }
+}</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.1336041284211782" />
+      <entry key="MS500" value="2.805899277574064" />
+      <entry key="S2" value="4.7643919590409745" />
+      <entry key="S5" value="5.450771459488576" />
+      <entry key="S10" value="5.715094407393779" />
+      <entry key="S30" value="5.902627323756446" />
+      <entry key="S60" value="5.951005470606868" />
+      <entry key="M2" value="5.975425098357393" />
+      <entry key="M5" value="5.990151330483666" />
+      <entry key="M10" value="5.995072540741434" />
+      <entry key="M15" value="5.996714332355757" />
+      <entry key="M30" value="5.998356818657249" />
+      <entry key="H1" value="5.999178322426329" />
+      <entry key="H2" value="5.999589139484822" />
+      <entry key="H4" value="5.99979456430998" />
+      <entry key="D1" value="5.999965759963795" />
+      <entry key="W1" value="5.999995108547779" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.0929015159795354" />
+      <entry key="MS500" value="2.6631651314655778" />
+      <entry key="S2" value="4.636112436734645" />
+      <entry key="S5" value="5.382496447458598" />
+      <entry key="S10" value="5.677466297694607" />
+      <entry key="S30" value="5.889235686831962" />
+      <entry key="S60" value="5.944198622975425" />
+      <entry key="M2" value="5.971993535516998" />
+      <entry key="M5" value="5.988771902546217" />
+      <entry key="M10" value="5.994381688828749" />
+      <entry key="M15" value="5.996253511229722" />
+      <entry key="M30" value="5.998126281425072" />
+      <entry key="H1" value="5.9990630221284995" />
+      <entry key="H2" value="5.9995314814136655" />
+      <entry key="H4" value="5.999765733293614" />
+      <entry key="D1" value="5.999960954519273" />
+      <entry key="W1" value="5.9999944220489665" />
+    </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8,
@@ -24,12 +126,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "JUnit.RunCucumberTest.executor": "Run",
+    "Maven.subscription-billing-service [clean].executor": "Run",
+    "Maven.subscription-billing-service [test].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "feature/subscription-billing-automation",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -42,6 +150,28 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="RunCucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="subscription-billing-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.billing.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.billing.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.example.billing.runner.RunCucumberTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RunCucumberTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -63,16 +193,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: project structure initialization" />
+    <MESSAGE value="docs: initialize PR for review" />
+    <MESSAGE value="Subscription &amp; Billing Service — Software Developer in Test Assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Subscription &amp; Billing Service — Software Developer in Test Assignment" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
